@@ -1,0 +1,8 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "[Die Mobiliar] Engineering Blog"
+theme: "PaperMod"
+paginate: 5
+
+params:
+  ShowReadingTime: true

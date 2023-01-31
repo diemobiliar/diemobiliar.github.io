@@ -1,0 +1,44 @@
+= Contributing
+
+== Getting Started
+
+=== Install Hugo
+
+On WP4Dev in WSL2:
+[,bash]
+----
+sudo apt update
+sudo apt install hugo
+----
+
+Test if hugo works by running: `hugo version`
+
+=== Run Hugo
+
+[,bash]
+----
+hugo server
+----
+
+==== Create a new post
+
+[,bash]
+----
+hugo new posts/2023-01-31-my-post-title.md
+----
+
+=== Working with the theme
+
+Update the theme to the latest version:
+
+[,bash]
+----
+git submodule update --remote --merge
+----
+
+Reclone the theme:
+
+[,bash]
+----
+git submodule update --init --recursive
+----
