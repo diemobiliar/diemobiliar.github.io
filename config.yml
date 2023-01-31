@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "http://diemobiliar.gitlab.io/it/rwc/lab/rwc-engblog-rwc"
 languageCode: "en-us"
 title: "[Die Mobiliar] Engineering Blog"
 theme: "PaperMod"
