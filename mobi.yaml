@@ -1,0 +1,9 @@
+---
+version: "2.1"
+components:
+  - name: "rwc-engblog-rwc"
+    metadata:
+      annotations:
+        team: "Sherpa"
+        contact: "sherpa@mobi.ch"
+        domain: "swe"
