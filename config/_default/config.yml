@@ -1,4 +1,4 @@
-baseURL: "http://diemobiliar.gitlab.io/it/rwc/lab/rwc-engblog-rwc"
+baseURL: ""
 languageCode: "en-us"
 title: "[Die Mobiliar] Engineering Blog"
 theme: "PaperMod"
@@ -6,3 +6,4 @@ paginate: 5
 
 params:
   ShowReadingTime: true
+  ShowShareButtons: true

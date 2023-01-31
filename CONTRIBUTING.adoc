@@ -20,13 +20,6 @@ Test if hugo works by running: `hugo version`
 hugo server
 ----
 
-==== Create a new post
-
-[,bash]
-----
-hugo new posts/2023-01-31-my-post-title.md
-----
-
 === Working with the theme
 
 Update the theme to the latest version:

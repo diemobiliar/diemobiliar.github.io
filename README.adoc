@@ -1,0 +1,50 @@
+# Engineering Blog
+
+## Writing a new post
+
+[,bash]
+----
+# format is YYYY-MM-DD-my-post-title.md
+hugo new posts/2023-01-31-my-post-title.md
+----
+
+Your new post will be marked as a draft. In order to see it, you need to run hugo with the `--buildDrafts` flag: `hugo server --buildDrafts`.
+When you're ready to publish your post, remove the `draft: true` line from the post's https://gohugo.io/content-management/front-matter/[front matter].
+
+### Adding images
+
+Restructure your post into a directory structure that looks like this:
+
+[,text]
+----
+content/posts/
+└── 2023-01-31-initial-post
+    ├── 2023-01-31-initial-post.md
+    └── dog-eating-apple.png
+----
+
+To use the image as a cover image, add this to the front matter of your post:
+
+[,yaml]
+----
+cover:
+    image: "/posts/2023-01-31-initial-post/dog-eating-apple.png"
+    alt: "A dog eating an apple"
+----
+
+To use the image in a post, use regular markdown syntax:
+
+[,markdown]
+----
+![A dog eating an apple](/posts/2023-01-31-initial-post/dog-eating-apple.png)
+----
+
+### Adding a table of contents
+
+Just add these these two lines to the front matter of your post:
+
+[,yaml]
+----
+ShowToc: true
+TocOpen: true
+----
