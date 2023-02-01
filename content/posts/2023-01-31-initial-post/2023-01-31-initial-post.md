@@ -2,11 +2,8 @@
 title: "Initial Post"
 date: 2023-01-31T11:11:30+01:00
 cover:
-    image: "/posts/2023-01-31-initial-post/lone-tree.png"
+    image: "posts/2023-01-31-initial-post/lone-tree.png"
     alt: "An image of a lone tree in front of a city landscape"
-    relative: true
-ShowToc: true
-TocOpen: true
 ---
 
 # Introduction
