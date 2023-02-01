@@ -1,0 +1,11 @@
+.header-nav,
+.header-sticky-top,
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.header-sticky-top {
+    /* padding-bottom: 5px !important; */
+    filter: drop-shadow(0 0 5px rgba(0,0,0, 0.2));
+}
