@@ -1,11 +1,17 @@
 # Engineering Blog
 
+## Todo
+
+* Link to corporate website
+* Link to Github
+* Notification about open positions
+
 ## Writing a new post
 
 [,bash]
 ----
 # format is YYYY-MM-DD-my-post-title.md
-hugo new posts/2023-01-31-my-post-title.md
+hugo new blog/2023-01-31-my-post-title.md
 ----
 
 Your new post will be marked as a draft. In order to see it, you need to run hugo with the `--buildDrafts` flag: `hugo server --buildDrafts`.
@@ -17,7 +23,7 @@ Restructure your post into a directory structure that looks like this:
 
 [,text]
 ----
-content/posts/
+content/blog/
 └── 2023-01-31-initial-post
     ├── 2023-01-31-initial-post.md
     └── dog-eating-apple.png
@@ -28,7 +34,7 @@ To use the image as a cover image, add this to the front matter of your post:
 [,yaml]
 ----
 cover:
-    image: "/posts/2023-01-31-initial-post/dog-eating-apple.png"
+    image: "/blog/2023-01-31-initial-post/dog-eating-apple.png"
     alt: "A dog eating an apple"
 ----
 
@@ -48,3 +54,7 @@ Just add these these two lines to the front matter of your post:
 ShowToc: true
 TocOpen: true
 ----
+
+### Shortcodes
+
+You may use https://docs.gethugothemes.com/bookworm/shortcodes/[shortcodes] to add widgets like collapsible sections, tabs or notices to your post.
