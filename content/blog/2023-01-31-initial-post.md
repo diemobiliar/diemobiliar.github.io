@@ -4,7 +4,7 @@ date: 2023-01-31T11:11:30+01:00
 author: "Christof Leuenberger"
 image: "images/post/lone-tree.png"
 alt: "An image of a lone tree in front of a city landscape"
-categories: ["Meta"]
+tags: ["Meta"]
 ---
 
 # Introduction

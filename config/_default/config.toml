@@ -84,7 +84,7 @@ search = true
 # main section
 mainSections = ["blog"]
 # copyright
-copyright = "© Die Mobiliar - Powered by [Hugo](https://gohugo.io/) & [Bookworm theme](https://docs.gethugothemes.com/bookworm/)"
+copyright = "© Die Mobiliar 2023"
 
 # Preloader
 [params.preloader]
@@ -103,21 +103,11 @@ expire_days = 2
 # url = "/"
 # weight = 1
 
-# [[menu.main]]
-# name = "About"
-# url = "about/"
-# weight = 3
-
 ############################# Footer Menu ########################
 [[menu.footer]]
 name = "Mobiliar Website"
 url = "https://www.mobiliar.ch/"
 weight = 1
-
-[[menu.footer]]
-name = "Work with us"
-url = "https://www.mobiliar.ch/die-mobiliar/karriere"
-weight = 2
 
 # [[menu.footer]]
 # name = "Privacy"

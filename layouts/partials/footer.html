@@ -1,0 +1,46 @@
+<footer>
+    <!-- grey footer -->
+    <div class="footer-main">
+        <div class="container">
+            <div class="text-center">
+                Does this sound good? Join our team!
+                <a href="https://jobs.mobiliar.ch/Jobs" class="d-block mt-4">
+                    Open positions
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- red footer -->
+    <div class="footer-meta">
+        <div class="container">
+        <div class="row justify-content-center align-items-center pt-5 pb-3">
+            <div class="col-md-6 text-center">
+                {{ with site.Params.copyright }}
+                    <p class="mb-0 copyright-text d-inline">{{.| markdownify}}</p>
+                {{ end }}
+                <ul class="list-inline d-inline footer-menu">
+                    {{ range site.Menus.footer }}
+                    <li class="list-inline-item mx-3"><a href="{{.URL | absURL}}">{{.Name}}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
+                    {{range site.Params.social}}
+                    <li class="list-inline-item text-center"><a href="{{.url}}" aria-label="social-icon">
+                    <i class="lab {{.icon}}"></i>
+                    </a></li>
+                    {{end}}
+                </ul>
+            </div>
+
+            <small class="attribution">
+                Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://docs.gethugothemes.com/bookworm/" target="_blank">Bookworm theme</a>
+            </small>
+        </div>
+        </div>
+    </div>
+  </footer>

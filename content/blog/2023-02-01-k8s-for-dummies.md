@@ -4,6 +4,7 @@ date: 2023-02-01T14:21:15+01:00
 author: "Christof Leuenberger"
 draft: false
 image: "images/post/container-ship.png"
+tags: ["K8s"]
 ---
 
 # K8s for dummies
