@@ -1,7 +1,7 @@
 ---
 version: "2.1"
 components:
-  - name: "rwc-engblog-rwc"
+  - name: "eng-blog-rwc"
     metadata:
       annotations:
         team: "Sherpa"
