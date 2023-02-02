@@ -25,7 +25,7 @@ Just run:
 
 [,bash]
 ----
-hugo new blog/my-topic-in-a-few-words.md
+hugo new blog/my-title.md
 ----
 
 The generated file will already have the mandatory fields for you to start filling in. Your new post will be marked as a draft. In order to see it, you need to run hugo with the `--buildDrafts` flag: `hugo server --buildDrafts`.
