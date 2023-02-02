@@ -33,9 +33,10 @@ When you're ready to publish your post, remove the `draft: true` line from the p
 
 #### The importance of images
 
-Blog posts with images are said to get 2.3x more engagement than those without - so please include images in your posts! Since images aren't always obvious for abstract technical topics, we encourage you to use AI-generated images to visualise your topic in a fun and abstract way. For inspiration, please read this blog post: https://deephaven.io/blog/2022/08/08/AI-generated-blog-thumbnails/[I replaced all our blog thumbnails using DALL·E 2 for $45: here’s what I learned].
+Blog posts with images are said to get 2.3x more engagement than those without - so please include an image in your post! Since a suitable image isn't always obvious for abstract technical topics, we encourage you to use AI-generated images to visualise your topic in a fun and abstract way. For inspiration, please read this blog post: https://deephaven.io/blog/2022/08/08/AI-generated-blog-thumbnails/[I replaced all our blog thumbnails using DALL·E 2].
 
 Try using one of these AI-generated image services:
+
 * https://www.midjourney.com/[Midjourney]
 * https://labs.openai.com/[DALL·E]
 * https://stablediffusionweb.com/[Stable Diffusion]
@@ -54,3 +55,9 @@ To use an image in a post, use regular markdown syntax:
 ----
 ![A dog eating an apple](images/post/dog-eating-apple.png)
 ----
+
+### Publishing your post
+
+When you're ready, remove the `draft: true` line from the post's front matter and open a pull request with your changes. The pull request will be reviewed by the blog's maintainers and merged once approved.
+
+Once merged, the blog will be automatically published and deployed by the pipeline.
