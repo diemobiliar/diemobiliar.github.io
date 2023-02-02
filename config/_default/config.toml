@@ -121,17 +121,21 @@ weight = 1
 
 # Social Icons
 [[params.social]]
-icon = "lab la-facebook-f" # https://icons8.com/line-awesome
+icon = "lab la-facebook-f"
 url = "https://www.facebook.com/diemobiliar"
 
 [[params.social]]
-icon = "lab la-twitter" # https://icons8.com/line-awesome
+icon = "lab la-twitter"
 url = "https://twitter.com/diemobiliar"
 
 [[params.social]]
-icon = "lab la-instagram" # https://icons8.com/line-awesome
+icon = "lab la-instagram"
 url = "https://www.instagram.com/diemobiliar/"
 
 [[params.social]]
-icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
+icon = "lab la-linkedin-in"
 url = "https://www.linkedin.com/company/die-mobiliar"
+
+[[params.social]]
+icon = "lab la-github"
+url = "https://github.com/diemobiliar/"

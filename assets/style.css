@@ -21,3 +21,14 @@
 .attribution a {
     color: rgba(255, 255, 255, .7);
 }
+
+.jobs-callout .la-angle-right {
+    vertical-align: middle;
+}
+
+.social-links.icon-box li a {
+    border: none !important;
+}
+.social-links.icon-box li a:hover {
+    background-color: transparent;
+}

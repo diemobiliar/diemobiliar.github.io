@@ -1,11 +1,5 @@
 # Engineering Blog
 
-## Todo
-
-* Link to corporate website
-* Link to Github
-* Notification about open positions
-
 ## Writing a new post
 
 [,bash]
