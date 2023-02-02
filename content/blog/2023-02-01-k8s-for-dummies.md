@@ -1,5 +1,5 @@
 ---
-title: "2023 02 01 K8s for Dummies"
+title: "K8s for Dummies"
 date: 2023-02-01T14:21:15+01:00
 author: "Christof Leuenberger"
 draft: false
