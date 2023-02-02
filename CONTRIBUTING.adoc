@@ -1,10 +1,10 @@
 = Contributing
 
-== Getting Started
+== Install Hugo
 
-=== Install Hugo
+Follow the https://gohugo.io/getting-started/quick-start/[quick start guide] to get Hugo up and running.
 
-On WP4Dev in WSL2:
+On WP4Dev in WSL2 the easiest way is to install hugo via apt:
 [,bash]
 ----
 sudo apt update
@@ -13,25 +13,19 @@ sudo apt install hugo
 
 Test if hugo works by running: `hugo version`
 
-=== Run Hugo
+== Run Hugo
+
+Run hugo in the root directory of the project:
 
 [,bash]
 ----
 hugo server
 ----
 
-=== Working with the theme
+This should start a local server on http://localhost:1313/ and automatically reload the page when you make changes to the source files.
 
-Update the theme to the latest version:
+== Create your author page
 
-[,bash]
-----
-git submodule update --remote --merge
-----
+1. Create a new file in the `content/authors` directory. The name of the file should be your full name (or a username if you prefer). For example `content/authors/firstname-lastname.md`. Check out the existing files for examples. You can add your social media links if you like, only list the ones you want to show up on your page.
 
-Reclone the theme:
-
-[,bash]
-----
-git submodule update --init --recursive
-----
+2. Add a picture to `assets/images/authors` if you want.

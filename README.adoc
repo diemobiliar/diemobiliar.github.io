@@ -1,54 +1,56 @@
 # Engineering Blog
 
-## Writing a new post
+This is the source code for the https://engineering.mobiliar.ch/[Mobi Engineering Blog]. The idea of this blog is to:
+
+* share our ideas and knowledge with the public, start discussions and get feedback
+* show-case the interesting things we do in IT at Mobiliar
+* document our learnings and experiences
+* position ourselves as a modern, forward-thinking company and an attractive employer of engineering talent
+* offer our engineers a platform to showcase their work and share their knowledge
+
+The blog is built from the source files in content/ with https://gohugo.io/[Hugo] and published as a static site.
+
+Anyone can contribute to the blog. Just follow the guidelines below to create a new post and open a pull request with your changes.
+
+## Contributing to the blog
+
+### Preqrequisites
+
+Please see xref:CONTRIBUTING.adoc[CONTRIBUTING.adoc] for instructions for the initial setup.
+
+### Creating a new post
+
+[,bash]
+Just run:
 
 [,bash]
 ----
-# format is YYYY-MM-DD-my-post-title.md
-hugo new blog/2023-01-31-my-post-title.md
+hugo new blog/my-topic-in-a-few-words.md
 ----
 
-Your new post will be marked as a draft. In order to see it, you need to run hugo with the `--buildDrafts` flag: `hugo server --buildDrafts`.
+The generated file will already have the mandatory fields for you to start filling in. Your new post will be marked as a draft. In order to see it, you need to run hugo with the `--buildDrafts` flag: `hugo server --buildDrafts`.
 When you're ready to publish your post, remove the `draft: true` line from the post's https://gohugo.io/content-management/front-matter/[front matter].
 
-### Adding images
+#### The importance of images
 
-Restructure your post into a directory structure that looks like this:
+Blog posts with images are said to get 2.3x more engagement than those without - so please include images in your posts! Since images aren't always obvious for abstract technical topics, we encourage you to use AI-generated images to visualise your topic in a fun and abstract way. For inspiration, please read this blog post: https://deephaven.io/blog/2022/08/08/AI-generated-blog-thumbnails/[I replaced all our blog thumbnails using DALL·E 2 for $45: here’s what I learned].
 
-[,text]
-----
-content/blog/
-└── 2023-01-31-initial-post
-    ├── 2023-01-31-initial-post.md
-    └── dog-eating-apple.png
-----
+Try using one of these AI-generated image services:
+* https://www.midjourney.com/[Midjourney]
+* https://labs.openai.com/[DALL·E]
+* https://stablediffusionweb.com/[Stable Diffusion]
 
-To use the image as a cover image, add this to the front matter of your post:
+TIP: https://www.windowscentral.com/how-crop-image-windows-10[Crop your image to a 16:9 aspect ratio], so it fits nicely in the blog post.
 
-[,yaml]
-----
-cover:
-    image: "/blog/2023-01-31-initial-post/dog-eating-apple.png"
-    alt: "A dog eating an apple"
-----
+image::./docs/images/aspect-ratio.jpg["Aspect ratio"]
 
-To use the image in a post, use regular markdown syntax:
+##### Adding images to a post
+
+You can add images in two ways, either as a cover image / thumbnail (most important) or/and as a regular image in the post. The cover image will be added automatically to the post's front matter when you run the `hugo new` command above, just replace the placeholder path with your own.
+
+To use an image in a post, use regular markdown syntax:
 
 [,markdown]
 ----
-![A dog eating an apple](/posts/2023-01-31-initial-post/dog-eating-apple.png)
+![A dog eating an apple](images/post/dog-eating-apple.png)
 ----
-
-### Adding a table of contents
-
-Just add these these two lines to the front matter of your post:
-
-[,yaml]
-----
-ShowToc: true
-TocOpen: true
-----
-
-### Shortcodes
-
-You may use https://docs.gethugothemes.com/bookworm/shortcodes/[shortcodes] to add widgets like collapsible sections, tabs or notices to your post.
