@@ -16,33 +16,35 @@
 
     <!-- red footer -->
     <div class="footer-meta">
-        <div class="container">
-        <div class="row justify-content-center align-items-center py-3">
-            <div class="col-lg-6 text-center">
-                {{ with site.Params.copyright }}
-                    <p class="mb-0 copyright-text d-inline">{{.| markdownify}}</p>
-                {{ end }}
-                <ul class="list-inline d-inline footer-menu">
-                    {{ range site.Menus.footer }}
-                    <li class="list-inline-item mx-3"><a href="{{.URL | absURL}}">{{.Name}}</a></li>
+        <div class="container py-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-left">
+                    {{ with site.Params.copyright }}
+                        <p class="mb-0 copyright-text d-inline">{{.| markdownify}}</p>
                     {{ end }}
-                </ul>
+                    <ul class="list-inline d-inline footer-menu">
+                        {{ range site.Menus.footer }}
+                        <li class="list-inline-item mx-3"><a href="{{.URL | absURL}}">{{.Name}}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 text-right">
+                    <ul class="social-links icon-box list-unstyled list-inline">
+                        {{range site.Params.social}}
+                        <li class="list-inline-item text-center"><a href="{{.url}}" aria-label="social-icon">
+                        <i class="lab {{.icon}}"></i>
+                        </a></li>
+                        {{end}}
+                    </ul>
+                </div>
             </div>
 
-            <div class="col-lg-6 text-center">
-                <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
-                    {{range site.Params.social}}
-                    <li class="list-inline-item text-center"><a href="{{.url}}" aria-label="social-icon">
-                    <i class="lab {{.icon}}"></i>
-                    </a></li>
-                    {{end}}
-                </ul>
+            <div class="row justify-content-center">
+                <small class="attribution">
+                    Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://docs.gethugothemes.com/bookworm/" target="_blank">Bookworm theme</a>
+                </small>
             </div>
-
-            <small class="attribution">
-                Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://docs.gethugothemes.com/bookworm/" target="_blank">Bookworm theme</a>
-            </small>
-        </div>
         </div>
     </div>
   </footer>
