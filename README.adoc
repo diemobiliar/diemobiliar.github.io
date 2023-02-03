@@ -1,6 +1,8 @@
 # Engineering Blog
 
-This is the source code for the https://engineering.mobiliar.ch/[Mobi Engineering Blog]. The idea of this blog is to:
+NOTE: This is a work in progress. The blog is not yet publically available and a solution for hosting the blog is yet to be decided on.
+
+This is the source code for the https://diemobiliar.gitlab.io/swe/eng/blog/eng-blog-rwc/[Mobi Engineering Blog]. The idea of this blog is to:
 
 * share our ideas and knowledge with the public, start discussions and get feedback
 * show-case the interesting things we do in IT at Mobiliar
