@@ -1,8 +1,5 @@
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-
 pages:
   script:
     - hugo --minify --gc
