@@ -54,13 +54,16 @@ link = "plugins/search/search.js"
 # site variables
 [params.variables]
 font_primary = "Mulish"
-h1 = "64px"
-h1_lg = "52px"
-h1_md = "42px"
+h1 = "42px"
+h1_lg = "38px"
+h1_md = "30px"
+
 h2 = "38px"
 h2_md = "30px"
+
 h3 = "30px"
 h3_md = "24px"
+
 h4 = "24px"
 h5 = "18px"
 h6 = "16px"
