@@ -12,6 +12,13 @@
     padding: 45px 0 45px 0 !important;
 }
 
+.single-post-author .media {
+    background-color: #f5f5f5;
+    padding: 25px;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+
 .footer-main {
     background-color: #D4EDF2;
     padding: 40px 0;
