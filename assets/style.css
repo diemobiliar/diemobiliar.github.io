@@ -4,14 +4,16 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
 .header-sticky-top {
-    /* padding-bottom: 5px !important; */
     filter: drop-shadow(0 0 5px rgba(0,0,0, 0.2));
 }
 
+.section-sm {
+    padding: 45px 0 45px 0 !important;
+}
+
 .footer-main {
-    background-color: rgb(212, 237, 242);
+    background-color: #D4EDF2;
     padding: 40px 0;
 }
 .footer-meta{
@@ -34,5 +36,18 @@
 }
 
 .post-meta-tags a {
-    background-color: rgb(212, 237, 242) !important;
+    background-color: #D4EDF2 !important;
+}
+
+/* make styles a bit more friendly on small screens */
+@media (max-width: 767px) {
+    header .navbar-brand img {
+        height: auto !important;
+    }
+    .single-post-author {
+        margin-top: 45px !important;
+    }
+    .single-post-meta {
+        margin-top: 35px !important;
+    }
 }

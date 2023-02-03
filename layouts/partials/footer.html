@@ -18,7 +18,7 @@
     <div class="footer-meta">
         <div class="container py-3">
             <div class="row align-items-center">
-                <div class="col-lg-6 text-left">
+                <div class="col-lg-6 text-center text-lg-left">
                     {{ with site.Params.copyright }}
                         <p class="mb-0 copyright-text d-inline">{{.| markdownify}}</p>
                     {{ end }}
@@ -29,7 +29,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-6 text-right">
+                <div class="col-lg-6 text-center text-lg-right">
                     <ul class="social-links icon-box list-unstyled list-inline">
                         {{range site.Params.social}}
                         <li class="list-inline-item text-center"><a href="{{.url}}" aria-label="social-icon">
