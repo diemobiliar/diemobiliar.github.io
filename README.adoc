@@ -49,7 +49,7 @@ image::./docs/images/aspect-ratio.jpg["Aspect ratio"]
 
 ##### Adding images to a post
 
-You can add images in two ways, either as a cover image / thumbnail (most important) or/and as a regular image in the post. The cover image will be added automatically to the post's front matter when you run the `hugo new` command above, just replace the placeholder path with your own.
+You can add images in two ways: as a cover image / thumbnail (most important) and as a regular image in the post. The cover image will be added automatically to the post's front matter when you run the `hugo new` command above, just replace the placeholder path with your own.
 
 To use an image in a post, use regular markdown syntax:
 
