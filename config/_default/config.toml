@@ -112,10 +112,10 @@ name = "Mobiliar Website"
 url = "https://www.mobiliar.ch/"
 weight = 1
 
-# [[menu.footer]]
-# name = "Privacy"
-# url = "privacy/"
-# weight = 3
+[[menu.footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
 
 # [[menu.footer]]
 # name = "Terms & Conditions"
