@@ -4,7 +4,7 @@
 
 Follow the https://gohugo.io/getting-started/quick-start/[quick start guide] to get Hugo up and running.
 
-On WP4Dev in WSL2 the easiest way is to install hugo via apt:
+On Linux, the easiest way is to install hugo via apt:
 [,bash]
 ----
 sudo apt update
