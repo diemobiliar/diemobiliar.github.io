@@ -107,20 +107,17 @@ expire_days = 2
 # weight = 1
 
 ############################# Footer Menu ########################
-[[menu.footer]]
-name = "Mobiliar Website"
-url = "https://www.mobiliar.ch/"
-weight = 1
-
-[[menu.footer]]
-name = "Contact"
-url = "contact/"
-weight = 3
-
 # [[menu.footer]]
-# name = "Terms & Conditions"
-# url = "terms-conditions/"
-# weight = 4
+# name = "Mobiliar Website"
+# url = "https://www.mobiliar.ch/"
+
+[[menu.footer]]
+name = "Privacy Policy"
+url = "https://www.mobiliar.ch/versicherungen-und-vorsorge/datenschutz-und-sicherheit/datenschutzerklaerung-fuer-internetseiten"
+
+[[menu.footer]]
+name = "Imprint"
+url = "https://www.mobiliar.ch/versicherungen-und-vorsorge/impressum"
 
 # Social Icons
 [[params.social]]
