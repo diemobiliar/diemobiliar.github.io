@@ -101,15 +101,6 @@ expire_days = 2
 
 
 ############################# Main Menu ########################
-# [[menu.main]]
-# name = "Home"
-# url = "/"
-# weight = 1
-
-############################# Footer Menu ########################
-# [[menu.footer]]
-# name = "Mobiliar Website"
-# url = "https://www.mobiliar.ch/"
 
 [[menu.footer]]
 name = "Privacy Policy"
