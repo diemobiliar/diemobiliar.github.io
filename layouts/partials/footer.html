@@ -20,7 +20,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center text-lg-left">
                     {{ with site.Params.copyright }}
-                        <p class="mb-0 copyright-text d-inline">{{.| markdownify}}</p>
+                        <p class="mb-0 copyright-text d-inline">
+                            <a href="https://www.mobiliar.ch/">{{.| markdownify}}</a>
+                        </p>
                     {{ end }}
                     <ul class="list-inline d-inline footer-menu">
                         {{ range site.Menus.footer }}
